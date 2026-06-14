@@ -92,6 +92,19 @@ Los datos se cargan automáticamente desde este repositorio GitHub, por lo que n
 - Matplotlib
 
 ---
+# Ejecutar el proyecto
+
+## Google Colab
+
+https://colab.research.google.com/github/pjcardona-sketch/Dieta_vacunacio-n_Citocinas/blob/main/Dieta_vacunacion_Citocinas_seaborn.ipynb
+
+## Repositorio GitHub
+
+https://github.com/pjcardona-sketch/Dieta_vacunacio-n_Citocinas
+
+## Visualización HTML
+
+https://pjcardona-sketch.github.io/Dieta_vacunacio-n_Citocinas/heatmap_luminex_clustermap_okabe_ito.html
 
 ## Autor
 
