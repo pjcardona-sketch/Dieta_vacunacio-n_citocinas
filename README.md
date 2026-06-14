@@ -21,12 +21,13 @@ La visualización propuesta sustituye los gráficos de dispersión originales po
 ```text
 Dieta_vacunacion_Citocinas/
 │
-├── Dieta_vacunacion_Citocinas.ipynb
-├── Pesos_dieta_Luminex_tidyverse.xlsx
-├── heatmap_luminex_altair.html
-├── dendrograma_analitos.png
-├── dendrograma_grupos.png
-└── README.md
+├── Dieta_vacunacion_Citocinas_seaborn.ipynb
+├── Dieta_vacunacion_citocinas.xlsx
+├── heatmap_luminex_altair_anotado_integrativo.html
+|-- heatmap_luminex_clustermap_okabe_ito
+├── heatmap_luminex_clustermap_okabe_ito.pdf
+├── heatmap_luminex_clustermap_okabe_ito.png
+|-- README.md
 ```
 
 ---
