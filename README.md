@@ -1,0 +1,97 @@
+# Dieta_vacunacion_Citocinas
+
+Análisis de perfiles inmunológicos mediante visualización jerárquica de citocinas y quimiocinas obtenidas mediante tecnología Luminex.
+
+## Objetivo
+
+Evaluar el efecto combinado de:
+
+- Dieta (ND vs HFD)
+- Vacunación (Sham vs BCG)
+- Estado de infección (LDA vs MCI)
+
+sobre la respuesta inmunológica medida mediante múltiples citocinas y quimiocinas.
+
+La visualización propuesta sustituye los gráficos de dispersión originales por un heatmap jerárquico acompañado de clustering jerárquico, permitiendo identificar patrones globales de respuesta inmunológica.
+
+---
+
+## Estructura del repositorio
+
+```text
+Dieta_vacunacion_Citocinas/
+│
+├── Dieta_vacunacion_Citocinas.ipynb
+├── Pesos_dieta_Luminex_tidyverse.xlsx
+├── heatmap_luminex_altair.html
+├── dendrograma_analitos.png
+├── dendrograma_grupos.png
+└── README.md
+```
+
+---
+
+## Datos
+
+Los datos originales fueron transformados a formato tidy siguiendo los principios de Wickham.
+
+Cada observación contiene:
+
+- Dieta
+- Estado de infección
+- Estado de vacunación
+- Analito
+- Concentración
+
+---
+
+## Metodología
+
+### Limpieza de datos
+
+- Eliminación de valores ausentes.
+- Conversión de variables numéricas.
+- Estandarización de etiquetas categóricas.
+
+### Transformación
+
+- Transformación log10 de concentraciones.
+- Estandarización mediante z-score por analito.
+
+### Visualización
+
+Se implementa un heatmap utilizando Altair/Vega-Lite:
+
+- Filas = analitos.
+- Columnas = grupos experimentales.
+- Color = z-score.
+
+Además, se calcula clustering jerárquico mediante:
+
+- Distancia euclídea.
+- Enlace promedio (average linkage).
+
+---
+
+## Reproducibilidad
+
+El notebook puede ejecutarse íntegramente en Google Colab.
+
+Los datos se cargan automáticamente desde este repositorio GitHub, por lo que no es necesario subir archivos manualmente.
+
+---
+
+## Tecnologías
+
+- Python
+- Pandas
+- NumPy
+- SciPy
+- Altair (Vega-Lite)
+- Matplotlib
+
+---
+
+## Autor
+
+Pere-Joan Cardona
