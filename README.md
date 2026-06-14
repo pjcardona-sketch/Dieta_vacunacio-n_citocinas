@@ -106,6 +106,10 @@ https://github.com/pjcardona-sketch/Dieta_vacunacio-n_Citocinas
 
 https://pjcardona-sketch.github.io/Dieta_vacunacio-n_Citocinas/heatmap_luminex_clustermap_okabe_ito.html
 
+## Visualización HTML integrativo
+
+https://pjcardona-sketch.github.io/Dieta_vacunacio-n_Citocinas/heatmap_luminex_altair_anotado_integrativo.html
+
 ## Autor
 
 Pere-Joan Cardona
