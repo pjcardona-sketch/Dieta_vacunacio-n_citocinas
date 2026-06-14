@@ -23,6 +23,7 @@ Dieta_vacunacion_Citocinas/
 │
 ├── Dieta_vacunacion_Citocinas_seaborn.ipynb
 ├── Dieta_vacunacion_citocinas.xlsx
+|-- heatmap_luminex_clustermap_okabe_ito.html
 ├── heatmap_luminex_altair_anotado_integrativo.html
 |-- heatmap_luminex_clustermap_okabe_ito
 ├── heatmap_luminex_clustermap_okabe_ito.pdf
